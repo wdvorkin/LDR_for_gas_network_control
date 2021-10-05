@@ -4,4 +4,4 @@ by Vladimir Dvorkin, Dharik Mallapragada, Audun Botterud, Jalal Kazempour and Pi
 
 Repository contains data, code and supplemental materials associated with this [preprint](www.arxiv.org).
 
-For the formulation of the stochastic OPF and network topology optimization problems refer to [Appendix.pdf](https://github.com/wdvorkin/LDR_for_gas_network_control/blob/main/Appendix.pdf).
+For the formulation of the stochastic OPF and network topology optimization problems, please refer to [Appendix.pdf](https://github.com/wdvorkin/LDR_for_gas_network_control/blob/main/Appendix.pdf).
