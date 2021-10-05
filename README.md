@@ -22,6 +22,6 @@ pkg> instantiate
 ```
 where ```julia``` is an alias to Julia installation. Then, run the code by typing
 ```
-$ julia main.jl -alpha_rho "CVaR_CC_OPF"
+$ julia main.jl 
 ```
 The results will be stored in ```~/output``.
