@@ -7,4 +7,9 @@ Repository contains data, code and supplemental materials associated with this [
 
 For the formulation of the stochastic OPF and network topology optimization problems, please refer to [Appendix.pdf](https://github.com/wdvorkin/LDR_for_gas_network_control/blob/main/Appendix.pdf).
 
-To see the model in action, 
+To see the code in action, first open a terminal and clone this repository by running
+```
+git clone https://github.com/wdvorkin/LDR_for_gas_network_control
+```
+
+
