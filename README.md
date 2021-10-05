@@ -13,11 +13,15 @@ To see the code in action, first open a terminal and clone this repository by ru
 ```
 git clone https://github.com/wdvorkin/LDR_for_gas_network_control
 ```
-Then, open Julia and activate the environment by running
+Then, ```cd``` to project directory, open Julia and activate the environment by running
 ```
 $ julia 
 julia> ]
 pkg> activate .
 pkg> instantiate
 ```
-where ```julia``` is an alias to Julia installation.
+where ```julia``` is an alias to Julia installation. Then, run the code by typing
+```
+$ julia main.jl -alpha_rho "CVaR_CC_OPF"
+```
+The results will be stored in ```~/output``.
