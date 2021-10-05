@@ -28,7 +28,7 @@ The results will be stored in ```~/output``. You can also specify different opti
 ```
 $ julia main.jl -v 100
 ```
-the program returns the the variance-aware solution with the pressure variance penalty equal to 100. To see the list of all options, type 
+the program returns the variance-aware solution with the pressure variance penalty equal to 100. To see the list of all options, type 
 ```
 $ julia main.jl --help
 ```
