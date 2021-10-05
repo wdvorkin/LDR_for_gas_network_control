@@ -7,7 +7,7 @@ Repository contains data, code and supplemental materials associated with this [
 
 For the formulation of the stochastic OPF and network topology optimization problems, please refer to [Appendix.pdf](https://github.com/wdvorkin/LDR_for_gas_network_control/blob/main/Appendix.pdf).
 
-The code is implemented in [Julia](https://julialang.org) (v1.6). To run the code, you need to download, install and license (free for academic use) the [Mosek](https://www.mosek.com) solver to run the code. 
+The code is implemented in [Julia](https://julialang.org) (v1.6). To run the code, you need to download, install and license (free for academic use) the [Mosek](https://www.mosek.com) solver. 
 
 To see the code in action, first open a terminal and clone this repository by running
 ```
@@ -24,4 +24,12 @@ where ```julia``` is an alias to Julia installation. Then, run the code by typin
 ```
 $ julia main.jl 
 ```
-The results will be stored in ```~/output``.
+The results will be stored in ```~/output``. You can also specify different options, e.g., by typing
+```
+$ julia main.jl -v 100
+```
+the program returns the the variance-aware with pressure variance penalty equal to 100. To see the list of all options, type 
+```
+$ julia main.jl --help
+```
+
