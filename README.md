@@ -14,20 +14,13 @@ To see the code in action, first open a terminal and clone this repository by ru
 ```
 git clone https://github.com/wdvorkin/LDR_for_gas_network_control
 ```
-Then, ```cd``` to project directory, open Julia and activate the environment by running
+Then, ```cd``` to project directory, and run the following command 
 ```
-$ julia 
-julia> ]
-pkg> activate .
-pkg> instantiate
+$ julia --project=@. main.jl 
 ```
-where ```julia``` is an alias to Julia installation. Then, run the code by typing
+where ```julia``` is an alias to Julia installation. By default, this command optimizes the base stcohastic control policy. The results will be stored in ```~/output``` You can also specify different options, e.g., by typing
 ```
-$ julia main.jl 
-```
-The results will be stored in ```~/output``. You can also specify different options, e.g., by typing
-```
-$ julia main.jl -p 100
+$ julia --project=@. main.jl -p 100
 ```
 the program returns the variance-aware solution with the pressure variance penalty equal to 100. To see the list of all options, type 
 ```
