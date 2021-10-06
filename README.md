@@ -19,7 +19,7 @@ Then, ```cd``` to project directory, and run the following command
 $ julia --project=@. main.jl 
 ```
 where ```julia``` is an alias to Julia installation. This command optimizes the base stochastic control policy and stores the results in ```~/output```. The terminal output will look like this:
-<img width="677" alt="Screen Shot 2021-10-06 at 10 12 32 AM" src="https://user-images.githubusercontent.com/31773955/136165304-d69c4f01-4714-49e5-b2de-0ea378606f41.png">
+<img width="900" alt="Screen Shot 2021-10-06 at 10 12 32 AM" src="https://user-images.githubusercontent.com/31773955/136165304-d69c4f01-4714-49e5-b2de-0ea378606f41.png">
 
 You can also specify different options, e.g., by typing
 ```
