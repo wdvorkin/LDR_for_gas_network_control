@@ -27,6 +27,6 @@ $ julia --project=@. main.jl -p 100
 ```
 the program returns the variance-aware solution with the pressure variability penalty equal to 100. To see the list of all available options, type 
 ```
-$ julia main.jl --help
+$ julia --project=@. main.jl --help
 ```
 
