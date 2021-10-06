@@ -18,11 +18,15 @@ Then, ```cd``` to project directory, and run the following command
 ```
 $ julia --project=@. main.jl 
 ```
-where ```julia``` is an alias to Julia installation. This command optimizes the base stochastic control policy and stores the results in ```~/output``` You can also specify different options, e.g., by typing
+where ```julia``` is an alias to Julia installation. This command optimizes the base stochastic control policy and stores the results in ```~/output```. The terminal output will look like this:
+<img width="677" alt="Screenshot 2020-10-08 at 10 57 57" src="https://user-images.githubusercontent.com/31773955/95437348-286c7a00-0955-11eb-9e77-8d7745f8c09f.png">
+
+
+You can also specify different options, e.g., by typing
 ```
 $ julia --project=@. main.jl -p 100
 ```
-the program returns the variance-aware solution with the pressure variance penalty equal to 100. To see the list of all options, type 
+the program returns the variance-aware solution with the pressure variance penalty equal to 100. To see the list of all available options, type 
 ```
 $ julia main.jl --help
 ```
