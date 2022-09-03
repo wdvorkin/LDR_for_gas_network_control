@@ -1,4 +1,4 @@
-# Multi-Stage Linear Decision Rules for Stochastic Control of Natural Gas Networks with Linepack
+# GasLDR: Linear Decision Rules for Stochastic Control of Gas Networks
 
 by Vladimir Dvorkin, Dharik Mallapragada, Audun Botterud, Jalal Kazempour and Pierre Pinson.
 * * *
